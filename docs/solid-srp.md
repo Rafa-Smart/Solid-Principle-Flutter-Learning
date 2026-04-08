@@ -5,11 +5,15 @@
 Artinya, satu class atau modul itu cuma boleh punya **satu tanggung jawab** aja. Kalau class kamu ngerjain banyak hal, pas ada perubahan di satu fitur, fitur lain bisa ikut rusak.
 
 ## Contoh Masalah
+
 Bayangkan kamu punya class untuk mengelola laporan:
 
 ```typescript
 class Report {
-  constructor(public title: string, public content: string) {}
+  constructor(
+    public title: string,
+    public content: string,
+  ) {}
 
   // Tanggung jawab 1: Mengolah data laporan
   getReportData() {
@@ -31,13 +35,17 @@ class Report {
 Kenapa ini buruk? Karena kalau format print berubah, kamu ubah class ini. Kalau database berubah, kamu ubah class ini juga. Class ini jadi punya terlalu banyak alasan buat berubah.
 
 ## Solusi (Penerapan SRP)
+
 Kita pisah-pisahin tanggung jawabnya ke class yang berbeda:
 
 ```typescript
 // Hanya mengurus data laporan
 class Report {
-  constructor(public title: string, public content: string) {}
-  
+  constructor(
+    public title: string,
+    public content: string,
+  ) {}
+
   getData() {
     return `${this.title}: ${this.content}`;
   }
@@ -61,5 +69,6 @@ class ReportRepository {
 Sekarang kodenya jauh lebih rapi dan gampang di-test secara terpisah.
 
 ---
+
 **Navigasi:**
-[Home](/) | [S](./solid-srp) | [**O**](./solid-ocp) | [L](./solid-lsp) | [I](./solid-isp) | [D](./solid-dip)
+[Home](/) | [S](/solid-srp) | [**O**](/solid-ocp) | [L](/solid-lsp) | [I](/solid-isp) | [D](/solid-dip)

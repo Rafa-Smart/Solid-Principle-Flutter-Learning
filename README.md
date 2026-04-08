@@ -5,18 +5,20 @@ Selamat datang di dokumentasi prinsip SOLID. Dokumentasi ini dirancang untuk mem
 ## Daftar Isi
 
 ### Bagian 1: Fondasi & Alasan
-1. [Apa yang Dibutuhkan?](./docs/01-requirements.md) - Persiapan sebelum belajar.
-2. [Kenapa Harus Pakai SOLID?](./docs/02-why-solid.md) - Alasan dan filosofi di baliknya.
-3. [Masalah yang Diselesaikan](./docs/03-problems-solved.md) - Solusi untuk kode yang berantakan.
-4. [Masalah yang Selalu Muncul](./docs/04-recurring-problems.md) - Penyakit umum dalam software development.
-5. [Strategi Implementasi](./docs/05-implementation.md) - Cara memulai di proyek nyata.
+
+1. [Apa yang Dibutuhkan?](/docs/01-requirements.md) - Persiapan sebelum belajar.
+2. [Kenapa Harus Pakai SOLID?](/docs/02-why-solid.md) - Alasan dan filosofi di baliknya.
+3. [Masalah yang Diselesaikan](/docs/03-problems-solved.md) - Solusi untuk kode yang berantakan.
+4. [Masalah yang Selalu Muncul](/docs/04-recurring-problems.md) - Penyakit umum dalam software development.
+5. [Strategi Implementasi](/docs/05-implementation.md) - Cara memulai di proyek nyata.
 
 ### Bagian 2: Prinsip SOLID
-- [**S** - Single Responsibility Principle](./docs/solid-srp.md)
-- [**O** - Open/Closed Principle](./docs/solid-ocp.md)
-- [**L** - Liskov Substitution Principle](./docs/solid-lsp.md)
-- [**I** - Interface Segregation Principle](./docs/solid-isp.md)
-- [**D** - Dependency Inversion Principle](./docs/solid-dip.md)
+
+- [**S** - Single Responsibility Principle](/docs/solid-srp.md)
+- [**O** - Open/Closed Principle](/docs/solid-ocp.md)
+- [**L** - Liskov Substitution Principle](/docs/solid-lsp.md)
+- [**I** - Interface Segregation Principle](/docs/solid-isp.md)
+- [**D** - Dependency Inversion Principle](/docs/solid-dip.md)
 
 ---
 
@@ -25,9 +27,13 @@ Selamat datang di dokumentasi prinsip SOLID. Dokumentasi ini dirancang untuk mem
 Berikut adalah perbandingan singkat antara kode "kotor" vs kode yang menerapkan SOLID (SRP):
 
 ### Bad Code (Tanpa SRP)
+
 ```typescript
 class User {
-  constructor(public name: string, public email: string) {}
+  constructor(
+    public name: string,
+    public email: string,
+  ) {}
 
   saveToDatabase() {
     // Logika simpan ke DB di dalam class User (Salah!)
@@ -37,9 +43,13 @@ class User {
 ```
 
 ### Good Code (Dengan SRP)
+
 ```typescript
 class User {
-  constructor(public name: string, public email: string) {}
+  constructor(
+    public name: string,
+    public email: string,
+  ) {}
 }
 
 class UserRepository {
@@ -51,4 +61,5 @@ class UserRepository {
 ```
 
 ---
+
 Dokumentasi ini dibuat agar mudah dipahami oleh siapa saja yang ingin naik level dalam coding. Silakan eksplorasi file-file di folder `docs/` untuk penjelasan mendalam.

@@ -28,12 +28,12 @@ var __toESM = (mod, isNodeMode, target2) => (target2 = mod != null ? __create(__
   mod
 ));
 var init_esm_shims = __esm({
-  "../../node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773/node_modules/tsup/assets/esm_shims.js"() {
+  "././node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
 var require_rfdc = __commonJS({
-  "../../node_modules/.pnpm/rfdc@1.4.1/node_modules/rfdc/index.js"(exports, module) {
+  "././node_modules/.pnpm/rfdc@1.4.1/node_modules/rfdc/index.js"(exports, module) {
     "use strict";
     init_esm_shims();
     module.exports = rfdc2;
@@ -554,12 +554,12 @@ var __toESM2 = (mod, isNodeMode, target22) => (target22 = mod != null ? __create
   mod
 ));
 var init_esm_shims2 = __esm2({
-  "../../node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773/node_modules/tsup/assets/esm_shims.js"() {
+  "././node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
 var require_speakingurl = __commonJS2({
-  "../../node_modules/.pnpm/speakingurl@14.0.1/node_modules/speakingurl/lib/speakingurl.js"(exports, module) {
+  "././node_modules/.pnpm/speakingurl@14.0.1/node_modules/speakingurl/lib/speakingurl.js"(exports, module) {
     "use strict";
     init_esm_shims2();
     (function(root) {
@@ -2086,7 +2086,7 @@ var require_speakingurl = __commonJS2({
   }
 });
 var require_speakingurl2 = __commonJS2({
-  "../../node_modules/.pnpm/speakingurl@14.0.1/node_modules/speakingurl/index.js"(exports, module) {
+  "././node_modules/.pnpm/speakingurl@14.0.1/node_modules/speakingurl/index.js"(exports, module) {
     "use strict";
     init_esm_shims2();
     module.exports = require_speakingurl();
@@ -3828,7 +3828,7 @@ var isInfinite = (payload) => payload === Infinity || payload === -Infinity;
 var isTypedArray = (payload) => ArrayBuffer.isView(payload) && !(payload instanceof DataView);
 var isURL = (payload) => payload instanceof URL;
 init_esm_shims2();
-var escapeKey = (key) => key.replace(/\./g, "\\.");
+var escapeKey = (key) => key.replace(/\/g, "\\.");
 var stringifyPath = (path) => path.map(String).map(escapeKey).join(".");
 var parsePath = (string) => {
   const result = [];

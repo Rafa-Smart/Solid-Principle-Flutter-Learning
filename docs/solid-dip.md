@@ -5,9 +5,12 @@
 Artinya: Class level tinggi (logika bisnis) nggak boleh bergantung langsung sama class level rendah (detail teknis seperti DB atau API). Keduanya harus bergantung sama abstraksi (interface).
 
 ## Contoh Masalah
+
 ```typescript
 class MySQLDatabase {
-  save(data: string) { console.log("Saved to MySQL"); }
+  save(data: string) {
+    console.log("Saved to MySQL");
+  }
 }
 
 class PasswordReminder {
@@ -23,6 +26,7 @@ class PasswordReminder {
 Kalau besok bos bilang "Ganti ke MongoDB!", kamu harus ngubah class `PasswordReminder`. Padahal urusan database itu cuma detail, logika utamanya kan ngingetin password.
 
 ## Solusi (Penerapan DIP)
+
 Pake interface sebagai perantara:
 
 ```typescript
@@ -31,11 +35,15 @@ interface Database {
 }
 
 class MySQLDatabase implements Database {
-  save(data: string) { console.log("Saved to MySQL"); }
+  save(data: string) {
+    console.log("Saved to MySQL");
+  }
 }
 
 class MongoDatabase implements Database {
-  save(data: string) { console.log("Saved to MongoDB"); }
+  save(data: string) {
+    console.log("Saved to MongoDB");
+  }
 }
 
 class PasswordReminder {
@@ -55,5 +63,6 @@ reminder.remind();
 Sekarang kamu bisa ganti-ganti database sesuka hati tanpa nyentuh kode di `PasswordReminder`. Inilah kekuatan dari Dependency Inversion!
 
 ---
+
 **Navigasi:**
-[Home](/) | [S](./solid-srp) | [O](./solid-ocp) | [L](./solid-lsp) | [I](./solid-isp) | [**D**](./solid-dip)
+[Home](/) | [S](/solid-srp) | [O](/solid-ocp) | [L](/solid-lsp) | [I](/solid-isp) | [**D**](/solid-dip)

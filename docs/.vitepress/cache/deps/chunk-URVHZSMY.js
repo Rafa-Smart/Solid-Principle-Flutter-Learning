@@ -207,7 +207,7 @@ function isRenderableAttrValue(value) {
   const type = typeof value;
   return type === "string" || type === "number" || type === "boolean";
 }
-var cssVarNameEscapeSymbolsRE = /[ !"#$%&'()*+,./:;<=>?@[\\\]^`{|}~]/g;
+var cssVarNameEscapeSymbolsRE = /[ !"#$%&'()*+,/:;<=>?@[\\\]^`{|}~]/g;
 function getEscapedCssVarName(key, doubleEscape) {
   return key.replace(
     cssVarNameEscapeSymbolsRE,
@@ -6250,7 +6250,7 @@ function mergeObjectOptions(to, from) {
 function mergeEmitsOrPropsOptions(to, from) {
   if (to) {
     if (isArray(to) && isArray(from)) {
-      return [.../* @__PURE__ */ new Set([...to, ...from])];
+      return [../* @__PURE__ */ new Set([...to, ...from])];
     }
     return extend(
       /* @__PURE__ */ Object.create(null),
