@@ -23,4 +23,4 @@ Jadi, SOLID itu investasi waktu di awal buat ngehemat waktu (dan stress) di masa
 
 ---
 **Navigasi:**
-[Sebelumnya: Apa yang Dibutuhkan?](./01-requirements.md) | [Home](/) | [Selanjutnya: Masalah yang Diselesaikan](./03-problems-solved.md)
+[Sebelumnya: Apa yang Dibutuhkan?](./01-requirements) | [Home](/) | [Selanjutnya: Masalah yang Diselesaikan](./03-problems-solved)

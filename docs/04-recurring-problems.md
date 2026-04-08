@@ -21,4 +21,4 @@ Mengenali masalah ini adalah langkah pertama buat jadi developer yang lebih jago
 
 ---
 **Navigasi:**
-[Sebelumnya: Masalah yang Diselesaikan](./03-problems-solved.md) | [Home](/) | [Selanjutnya: Strategi Implementasi](./05-implementation.md)
+[Sebelumnya: Masalah yang Diselesaikan](./03-problems-solved) | [Home](/) | [Selanjutnya: Strategi Implementasi](./05-implementation)

@@ -20,4 +20,4 @@ Dalam dokumentasi ini, contoh kode akan menggunakan **TypeScript/JavaScript**, t
 
 ---
 **Navigasi:**
-[Home](/) | [Selanjutnya: Kenapa Harus Pakai SOLID?](./02-why-solid.md)
+[Home](/) | [Selanjutnya: Kenapa Harus Pakai SOLID?](./02-why-solid)

@@ -54,4 +54,4 @@ Sekarang tiap class cuma dapet apa yang mereka butuhin aja.
 
 ---
 **Navigasi:**
-[Home](/) | [S](./solid-srp.md) | [O](./solid-ocp.md) | [L](./solid-lsp.md) | [**I**](./solid-isp.md) | [D](./solid-dip.md)
+[Home](/) | [S](./solid-srp) | [O](./solid-ocp) | [L](./solid-lsp) | [**I**](./solid-isp) | [D](./solid-dip)

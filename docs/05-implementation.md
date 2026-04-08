@@ -21,4 +21,4 @@ Ingat, SOLID itu alat bantu, bukan beban. Tujuannya biar kita kerja lebih efekti
 
 ---
 **Navigasi:**
-[Sebelumnya: Masalah yang Selalu Muncul](./04-recurring-problems.md) | [Home](/) | [Mulai Materi: Single Responsibility Principle](./solid-srp.md)
+[Sebelumnya: Masalah yang Selalu Muncul](./04-recurring-problems) | [Home](/) | [Mulai Materi: Single Responsibility Principle](./solid-srp)
