@@ -6,19 +6,19 @@ Selamat datang di dokumentasi prinsip SOLID. Dokumentasi ini dirancang untuk mem
 
 ### Bagian 1: Fondasi & Alasan
 
-1. [Apa yang Dibutuhkan?](/docs/01-requirements) - Persiapan sebelum belajar.
-2. [Kenapa Harus Pakai SOLID?](/docs/02-why-solid) - Alasan dan filosofi di baliknya.
-3. [Masalah yang Diselesaikan](/docs/03-problems-solved) - Solusi untuk kode yang berantakan.
-4. [Masalah yang Selalu Muncul](/docs/04-recurring-problems) - Penyakit umum dalam software development.
-5. [Strategi Implementasi](/docs/05-implementation) - Cara memulai di proyek nyata.
+1. [Apa yang Dibutuhkan?](/01-requirements) - Persiapan sebelum belajar.
+2. [Kenapa Harus Pakai SOLID?](/02-why-solid) - Alasan dan filosofi di baliknya.
+3. [Masalah yang Diselesaikan](/03-problems-solved) - Solusi untuk kode yang berantakan.
+4. [Masalah yang Selalu Muncul](/04-recurring-problems) - Penyakit umum dalam software development.
+5. [Strategi Implementasi](/05-implementation) - Cara memulai di proyek nyata.
 
 ### Bagian 2: Prinsip SOLID
 
-- [**S** - Single Responsibility Principle](/docs/solid-srp)
-- [**O** - Open/Closed Principle](/docs/solid-ocp)
-- [**L** - Liskov Substitution Principle](/docs/solid-lsp)
-- [**I** - Interface Segregation Principle](/docs/solid-isp)
-- [**D** - Dependency Inversion Principle](/docs/solid-dip)
+- [**S** - Single Responsibility Principle](/solid-srp)
+- [**O** - Open/Closed Principle](/solid-ocp)
+- [**L** - Liskov Substitution Principle](/solid-lsp)
+- [**I** - Interface Segregation Principle](/solid-isp)
+- [**D** - Dependency Inversion Principle](/solid-dip)
 
 ---
 
