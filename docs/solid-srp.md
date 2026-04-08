@@ -62,4 +62,4 @@ Sekarang kodenya jauh lebih rapi dan gampang di-test secara terpisah.
 
 ---
 **Navigasi:**
-[Home](../README.md) | [S](./solid-srp.md) | [**O**](./solid-ocp.md) | [L](./solid-lsp.md) | [I](./solid-isp.md) | [D](./solid-dip.md)
+[Home](/) | [S](./solid-srp.md) | [**O**](./solid-ocp.md) | [L](./solid-lsp.md) | [I](./solid-isp.md) | [D](./solid-dip.md)

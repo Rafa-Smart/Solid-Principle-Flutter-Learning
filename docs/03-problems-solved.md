@@ -22,4 +22,4 @@ Dengan nyelesain masalah ini, hidup kamu sebagai developer bakal jauh lebih tena
 
 ---
 **Navigasi:**
-[Sebelumnya: Kenapa Pakai SOLID?](./02-why-solid.md) | [Home](../README.md) | [Selanjutnya: Masalah yang Selalu Muncul](./04-recurring-problems.md)
+[Sebelumnya: Kenapa Pakai SOLID?](./02-why-solid.md) | [Home](/) | [Selanjutnya: Masalah yang Selalu Muncul](./04-recurring-problems.md)
